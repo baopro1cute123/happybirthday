@@ -17,7 +17,6 @@ document.getElementsByClassName("third--canvas")[0];
 thirdCanvas.setAttribute("style","display:none");
 
 
-
 let containerToggleOne = setTimeout(function(){
 	firstSlideContainer.setAttribute("style","display:none");
 	secondSlideContainer.setAttribute("style","display:block");
@@ -33,3 +32,4 @@ let removeSecondCanvas = setTimeout(function(){
 	secondCanvas.setAttribute("style","display:none");
 	thirdCanvas.setAttribute("style","display:block")
 },9800)
+

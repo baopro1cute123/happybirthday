@@ -753,7 +753,7 @@ body, html{
 	animation-delay: 5200ms;
 }
 .third--canvas .text-center {
-    font-size: 13px;
+    font-size: 12px;
     margin-top: 500px;
     margin-left: 500px;
     opacity: 0; /* Start hidden */

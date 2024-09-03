@@ -40,6 +40,8 @@ function showSlides() {
 
 // Hàm để xử lý sự kiện nhấp chuột vào nút
 function handleButtonClick() {
+                document.getElementById("toggle-music").style.display = "none";
+
     if (isPlaying) {
         audio.pause();
         button.textContent = 'Play Music';

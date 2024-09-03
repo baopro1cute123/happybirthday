@@ -60,11 +60,20 @@ body, html{
 }
 
 .first--slide .button-slide {
-display: flex;
+	display: flex;
     justify-content: center; /* Căn giữa theo chiều ngang */
     align-items: center;     /* Căn giữa theo chiều dọc */
-    height: 100vh;           /* Chiều cao 100% của viewport */
-    width: 100vw;            /* Chiều rộng 100% của viewport */
+	border: none;
+	margin-top: 40vh;
+	margin-left: 85vh;
+	width: 300px;
+	
+	background-color:#1b405d ;
+}
+.first--slide .button-slide .p-slide {
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
 }
 .slide--content{
 	overflow: hidden;

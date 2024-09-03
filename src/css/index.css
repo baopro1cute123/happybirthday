@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Carter+One');
 
 
+
 *{
 	box-sizing: border-box;
 }
@@ -13,7 +14,16 @@ body, html{
 	font-family: "carter one",sans-serif;
 	font-weight: bold!important;
 }
-
+/* .slide{
+	position: relative;
+	width:100%;
+	height:100%;
+	background:#1b405d;
+	color:#d8d0be;
+	text-transform: uppercase;
+	font-weight: 700;
+	overflow: hidden;
+} */
 .first--slide{
 	position: relative;
 	width:100%;
@@ -23,7 +33,9 @@ body, html{
 	text-transform: uppercase;
 	font-weight: 700;
 	overflow: hidden;
+
 }
+
 
 .first--slide::before{
 	content:"";
@@ -35,6 +47,7 @@ body, html{
 	background:#fcbb5e;
 	z-index: 3;
 	animation:firstSlideRemove 500ms ease 6s 1 forwards;
+
 }
 
 @keyframes firstSlideRemove{
@@ -46,6 +59,13 @@ body, html{
 	}
 }
 
+.first--slide .button-slide {
+display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center;     /* Căn giữa theo chiều dọc */
+    height: 100vh;           /* Chiều cao 100% của viewport */
+    width: 100vw;            /* Chiều rộng 100% của viewport */
+}
 .slide--content{
 	overflow: hidden;
 	text-align: center;
